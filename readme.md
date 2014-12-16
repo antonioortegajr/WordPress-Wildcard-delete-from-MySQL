@@ -6,7 +6,7 @@ Wildcard/String You define/ Wildcard
 
 For example if there are values that have a common but of string in the wp options.
 
-The name could be "Thisis_MyWildcard_APIKey".
+The name could be "This_is_MyWildcard_APIKey".
 
 Set the wildcard to "MyWildcard" in the uninstall.php file and the plugin will delete anything it finds with MyWildCard form the table.
 

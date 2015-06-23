@@ -3,7 +3,7 @@
 if( !defined( 'WP_UNINSTALL_PLUGIN' ) )
 exit ();
 
-// deletes anything it can with 'YourWildcardText' in the name from the wp_options
+// deletes anything it can with 'YourWildcardText' in the name from the wp_options. Change this text below to anything you like.
 function delete_options_prefixed( $prefix ) {
     global $wpdb;
     $wpdb->query( "DELETE FROM {$wpdb->options} WHERE option_name LIKE '%{$prefix}%'" );
